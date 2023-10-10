@@ -1,0 +1,181 @@
+#title {
+  background-color: #ff4c68;
+}
+
+#navbarSupportedContent {
+  margin-left: 45%;
+}
+
+.navbar-brand {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.nav-item {
+  padding: 20px;
+  font-size: 1.5rem;
+}
+
+#iphone {
+  transform: rotate(25deg);
+  margin-top: 130px;
+  position: absolute;
+  right: 10px;
+}
+
+#features{
+  background: #fff;
+  padding: 7% 15% ;
+  position: relative;
+}
+
+.container-fluid {
+  padding: 3% 10%;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: bolder;
+  line-height: 1.5;
+  color: white;
+  margin-top: 40px;
+}
+
+h2{
+  font-size: 80px;
+  font-weight: bolder;
+  line-height: 1.5;
+  padding: 50px;
+}
+
+
+h3{
+  font-weight: 600;
+}
+
+.download-button {
+  margin: 10px;
+  margin-top: 20px;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.features-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+  gap: 20px; /* Add some spacing between the grid items */
+}
+
+.container {
+  border: 1px solid #ccc; /* Optional: Add a border to each container */
+  padding: 20px; /* Optional: Add padding to each container */
+  text-align: center; /* Optional: Center the content */
+}
+
+
+
+
+#testimonials {
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+
+}
+
+.carousel-item{
+padding: 20px 70px;
+}
+
+.dog-image{
+  border-radius: 100%;
+  width: 150px;
+  padding: 10px 20px;
+}
+
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.press-img {
+  width: 20%;
+  padding: 50px 40px;
+margin-top: 100px;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.price-tag {
+padding-bottom: 20px;
+}
+
+@media (max-width: 1028px) {
+
+  #title{
+    text-align: center;
+  }
+
+  #iphone {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta{
+  background-color: #ff4c68;
+  padding: 100px;
+}
+
+.lastone{
+  text-align: center;
+  font-size: 80px;
+  color: #fff;
+  line-height: 1;
+  font-weight: bold;
+  padding: 10px 10px;
+}
+
+ .install-button{
+   margin: 10px;
+  margin-top: 60px;
+ }
+
+ #footer{
+   background-color: #fff;
+   text-align: center;
+   margin: 30px 10px;
+ }
+
+.last-para{
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+
+.last-button{
+  margin: 10px;
+}
+
+.last-button:hover{
+  color: #ff4c68;
+}
